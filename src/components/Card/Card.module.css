@@ -1,0 +1,28 @@
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.container {
+    min-width: 500px;
+}
+.card {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.stars {
+    margin-left: auto;
+}
+
+.items {
+    text-align: left;
+}

@@ -1,0 +1,30 @@
+.wapper input {
+    padding: 10px;
+    border: 3px solid #d3d3d3;
+    width: 180px;
+    font-size: 12px;
+    outline: none;
+}
+
+.wapper input:focus {
+    border: 3px solid #615b5b;
+}
+
+.wapper input:focus + button {
+    background: #615b5b;
+}
+
+.wapper button {
+    font-size: 12px;
+    padding: 13px;
+    border: none;
+    background: #d3d3d3;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.wapper {
+    margin: 20px 0;
+}
